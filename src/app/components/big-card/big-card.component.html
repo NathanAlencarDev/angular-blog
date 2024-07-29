@@ -2,7 +2,7 @@
 
     <div class="big-card__photo">
         <img 
-         src="https://e0.pxfuel.com/wallpapers/268/852/desktop-wallpaper-omegamon-android-omnimon.jpg"
+         src="{{ photoCover }}"
          alt=""
          height="200px"
          srcset=""
@@ -11,13 +11,13 @@
     </div>
 
     <div class="big-card__tittle">
-        <h1><a href="#">Lorem Ipsum</a></h1>
+        <h1><a href="#">{{ cardTittle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
             <a href="#">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor at libero nec vulputate. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                {{ cardDescription }}
             </a>
         </p>
     </div>
